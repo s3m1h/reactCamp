@@ -7,7 +7,6 @@ export default function Navi() {
                 <Container>
                     <Menu.Item
                         name='home'
-
                     />
                     <Menu.Item
                         name='messages'

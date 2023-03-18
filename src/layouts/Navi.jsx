@@ -6,13 +6,8 @@ export default function Navi() {
         <div>
             <Menu inverted>
                 <Container>
-                    <Menu.Item
-                        name='home'
-                    />
-                    <Menu.Item
-                        name='messages'
-
-                    />
+                    <Menu.Item name='home'/>
+                    <Menu.Item name='messages'/>
 
                     <Menu.Menu position='right'>
                         <CartSummary></CartSummary>

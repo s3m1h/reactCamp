@@ -1,6 +1,9 @@
 import React from 'react'
 import { Icon, Label, Menu, Table } from 'semantic-ui-react'
-export default function ProductList() {
+export default function CarList() {
+
+
+ // const [cars, setCars] = useState([])
   return (
     <div>
       <Table celled>
@@ -13,18 +16,7 @@ export default function ProductList() {
         </Table.Header>
 
         <Table.Body>
-          <Table.Row>
-            <Table.Cell>
-              <Label ribbon>First</Label>
-            </Table.Cell>
-            <Table.Cell>Cell</Table.Cell>
-            <Table.Cell>Cell</Table.Cell>
-          </Table.Row>
-          <Table.Row>
-            <Table.Cell>Cell</Table.Cell>
-            <Table.Cell>Cell</Table.Cell>
-            <Table.Cell>Cell</Table.Cell>
-          </Table.Row>
+          
           <Table.Row>
             <Table.Cell>Cell</Table.Cell>
             <Table.Cell>Cell</Table.Cell>
